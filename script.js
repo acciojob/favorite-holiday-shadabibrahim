@@ -31,7 +31,7 @@ let favoriteFoods = [
 ];
 favoriteFoods.forEach((food)=>{
 		let li =  document.createElement('li');
-		li.innerHTML= `<em>${food}</em>`;
+		li.innerHTML= `<b><i>${food}</i></b>`;
 		ul.appendChild(li);
 })
 let render = [h1,p1,hr,ol,ul];
